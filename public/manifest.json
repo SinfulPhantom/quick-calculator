@@ -1,0 +1,10 @@
+{
+  "name": "Quick Calculator",
+  "version": "1.0.1",
+  "manifest_version": 2,
+  "icons": { "1": "calculator-flat.png" },
+  "browser_action": {
+      "default_popup": "index.html"
+  },
+  "content_security_policy": "script-src 'self' 'sha256-7uirywmizaz5+PGImzCXxRL5rpNfzfyAH+fHLdtJ++c='; object-src 'self'"
+}
